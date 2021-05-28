@@ -6,9 +6,24 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class HomeController {
-	@RequestMapping(value="/test", method=RequestMethod.GET)
+	@RequestMapping(value="/", method=RequestMethod.GET)
 	public String home() {
-		System.out.println("test");
-		return null;
+		return "index";
+	}
+	@RequestMapping(value="/test1", method=RequestMethod.GET)
+	public String test1() {
+		return "test1";
+	}
+	@RequestMapping(value="/test2", method=RequestMethod.GET)
+	public String test2() {
+		return "test2";
+	}
+	@RequestMapping(value="/sub1/test3", method=RequestMethod.GET)
+	public String test3() {
+		return "sub1/test3";
+	}
+	@RequestMapping(value="/sub1/test4", method=RequestMethod.GET)
+	public String test4() {
+		return "sub1/test4";
 	}
 }
