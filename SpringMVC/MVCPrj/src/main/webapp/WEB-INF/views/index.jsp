@@ -10,6 +10,8 @@
 	<a href="test1">Test1</a><br>
 	<a href="test2">Test2</a><br>	
 	<a href="sub1/test3">sub/test3</a><br>
-	<a href="sub1/test4">sub/test4</a>
+	<a href="sub1/test4">sub/test4</a><br>
+	<a href="test5">test5</a>
+	<a href="/sub1/test7">test7</a>
 </body>
 </html>
