@@ -14,7 +14,10 @@
 <a href="/test3?a=100&b=200&c=300">Get_Test3</a> &nbsp;&nbsp;
 <a href="/test4?a=100&b=200&c=300">Test4 Post</a> &nbsp;&nbsp;
 <a href="/test5/1000/2000/3000">@PathVariable</a> &nbsp;&nbsp;
-
+<a href="/test6?a=100&b=200&c=300&c=400&c=500">@RequestParam</a> &nbsp;&nbsp;
+<a href="/test7?a=100&b=200&c=300&c=400&c=500">Object</a> &nbsp;&nbsp;
+<a href="/test8?a=100&b=200&c=300&c=400&c=500">Object2</a> &nbsp;&nbsp;
+<a href="/test9?a=100&b=200&c=300">@ModelAttribute</a> &nbsp;&nbsp;
 
 </body>
 </html>
